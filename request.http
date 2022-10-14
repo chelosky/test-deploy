@@ -1,0 +1,13 @@
+POST http://localhost:3000/data  HTTP/1.1
+content-type: application/json
+
+{
+   "name": "usuario 3",
+   "email": "marcelo234@hotmail.com", 
+   "birthYear": 1997 
+}
+
+###
+GET http://localhost:3000/test  HTTP/1.1
+###
+GET http://localhost:3000/  HTTP/1.1
